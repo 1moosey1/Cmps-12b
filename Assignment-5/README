@@ -1,0 +1,37 @@
+README
+
+This is program uses a doubly linked list to create a line based text editor
+
+Special Information
+
+Starting the program
+
+	./edfile
+	Will start the program with an empty list
+
+	./edfile -e
+	will start the program with an empty list with echo turned on
+
+	./edfile -e file
+	Will start the program with a list of lines read in from the file with echo turned on
+
+	./edfile file
+	Will start the program with a list of lines read in from the file
+
+	Inputting any illegal options will start the program with an empty list
+
+Special Notes
+The program will not exit if you give an illegal command it will just ignore it.
+If there is an error with the file using the w or r command the program will simply 
+output the error and will not exit. 
+
+To exit the program use ctrl+d
+
+Table of Contents
+
+1. README
+2. auxlib.java
+3. dllist.java
+4. dllistTest.java
+5. edfile.java
+6. Makefile

@@ -1,0 +1,16 @@
+Program designed to index words from a file in lexicographic order and print out
+where every word is located.
+
+Files included:
+README
+Makefile
+Queue.java 
+Tree.java
+xref.java
+auxlib.java
+
+To run:
+make all/make test
+
+to clean:
+make clean

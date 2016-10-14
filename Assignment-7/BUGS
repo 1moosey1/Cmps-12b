@@ -1,0 +1,22 @@
+Note:
+All the ranges of lines listed are the areas where you can find the new lines.
+The areas are small and when compared to the original file you can easily spot what was changed.
+
+Edited lines 23 - 30
+list_insert2 method
+
+list_insert2 created two nodes within the scope of this method. Which would be invalid once going out of scope. To remedy this I updated u and v to be pointers then allocated memory for them to use. I updated the dot(.) operators in the rest of the function to use (->) and took away any (&) operators because they are no longer needed with the use of pointers.
+
+--------
+
+Added two lines 42 - 44
+list_remove
+
+When removing a node from a list the node being removed was not freed. To correct this issue I added a pointer that points to the node that is being being removed. Updated the pointers for the node before and after the node being removed and finally called free on the node that was removed.
+
+--------
+
+Added five lines 62 - 72
+list_destroy
+
+list_destroy was only freeing the memory used by the first node in the list. I fixed this issue by using a while loop to loop through every remaining node in the list freeing them until there were no more nodes that needed to be freed.

@@ -1,0 +1,22 @@
+README
+
+Make Commands:
+Make, make all, make cyoa, make test, make clean
+
+Use make, make all or make cyoa to compile the java code and create an executable
+
+Use make test to compile the could if it is not already compiled and start the program
+with our provided demo.adventure file
+
+Special instructions:
+to win game, choose (aaaa) or (baa)
+
+Table of Contents:
+1. README
+2. design.txt
+3. Makefile
+4. Room.java
+5. TextAdventure.java
+6. demo.adventure
+
+

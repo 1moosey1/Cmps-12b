@@ -1,0 +1,69 @@
+r start
+d You find yourself in pitch darkness, feeling nothing but a cool and unsettling draft passing through your flimsy t-shirt. How in the world did you end up here?
+d As you stand there trying to make sense of the situation, a loud rumbling noise comes from in front and behind you. It sounds like two doors opened up! You hastily decide which door to run through.
+o Run ahead
+t ahead
+o Run back
+t back
+
+r ahead
+d You run towards the noise ahead of you and find yourself in a vacant, stone room with dimly lit torches on all four walls of the room. 
+d The door you ran through has disappeared and the walls are closing in quickly. Frantically, you search for any escape and realize that you might be in an ancient, booby-trapped pyramid--much like your recent dreams!
+d You recall that this room has a lever disguised as a torch that will open a trapdoor in the ground. Only problem is... which torch was it?
+o Pull any torch that you see first
+t trapdoor
+o Close your eyes and hope this is all one of your crazy dreams
+t start
+
+r back
+d You quickly turn around and charge through the doorway that opened up behind you. Immediately the doorway disappears and you find yourself in a generally empty room, minus the wooden box in the center. 
+d You realize that you must be in an ancient, booby-trapped pyramid--much like your recent dreams! However, you don't remember this box. Will you risk opening it in hopes of a chance to escape this place, or would you rather wait it out?
+o Open the box
+t scarabs
+o Wait and see what happens
+t start
+
+r trapdoor
+d The torch lever you pulled opened up a trapdoor beneath your feet that dropped you into a lower floor. This floor is huge--it can easily hold a football field. You're growing tired and scared.
+d At the far end of the room, you see a figure staggering towards you, and it doesn't look friendly. But you never know.
+o Run to the figure and ask for directions
+t help
+o Try to hide in the far corner
+t hide
+o Try to scare the figure away
+t danger
+
+r scarabs
+d The box contained a hoard of scarabs that crawled over you and tunneled their way into the ground beneath you.You are now in a tight cubicle-sized, pitch black room. A moan sounds into your right ear. What now?
+d Terrified of turning your head, you try to recall what part of the pyramid you're in. Why does this seem so familiar but you can't remember any of the details? The moaning continues and you have to do something fast.
+o Squeeze your eyes and pray for this madness to end
+t final
+o Turn your head
+t anger
+
+r hide
+d You run to the farthest corner away from the staggering figure and hope for the best. But the figure keeps stalking towards you and you have no option but to take action.
+o Run to the figure and ask for directions
+t help
+o Try to scare the figure away
+t danger
+
+r help
+d You hold your breath and walk towards the staggering figure. It turns out: it's your old friend Janice! But... where did you know Janice from again? It all hits you right then and there: Janice was your adventure buddy from your imaginary pyramid game that you played as a kid.
+o Remember!
+t final
+
+r danger
+d You run towards the figure with a loud cry, attempting to look intimidating. However, the figure responds with an even louder, piercing screech that makes you halt in your steps. The figure comes closer and...
+o Accept your fate
+t start
+
+r anger
+d You slowly turn your head to see what the source of the moaning is. Immediately a hand reaches out and covers your face.
+o Accept your fate
+t start
+
+r final
+d Then... you remember this is all a dream! As soon as you realize this, you're sitting up in bed in the comforts of your own home. As you get out of bed, you find yourself spinning into darkness once again...(you win though)
+
+

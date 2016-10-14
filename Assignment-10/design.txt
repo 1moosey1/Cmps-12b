@@ -1,0 +1,7 @@
+There are a total of two data structures used for this project!
+
+1. Stack
+We used a stack for handling the history of the rooms the user has visited. Whenever the user enters a new room the previous room is pushed onto the stack. That way the most recent room is always at the top of the stack and the item we will recieve when calling pop. When we call pop we get the users previous room and then we set the current room to the room we just popped. Successfully moving the user back one room.
+
+2. TreeMap (Underlying structure is a red/black tree)
+We used a tree map because not only does it provide hashing and key -> value pairs but when we request the all the values they are in alphabetical order which comes in handy for when the user uses the command y and we need to print out all the rooms in alphabetical order. The reason we went with a hash map was because we needed a way to associate a room object with its tag. Hashmaps provide this functionality and whenever we get a specific option we can get that options tag and use that tag as the key to find the object. It simplifies the process greatly.
